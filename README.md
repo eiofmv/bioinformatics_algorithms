@@ -49,8 +49,8 @@ Implement a global alignment algorithm with affine gaps.
 Sequences:
 TCCCAGTTATGTCAGGGGACACGAGCATGCAGAGAC, AATTGCCGCCGTCGTTTTCAGCAGTTATGTCAGATC
                 
-| Test case | Match | Mismatch | Gap opening | Gap continuation |
-| --------- | --------- | --------- | --------- | -----:|
-| 1  | 1 |-1 |  0 | -1 |
-| 2 |  1 | -1 | -100 | -0.01 |
-| 3 | 1 | -1 | 0.5 | -0.3 |
+ Test case | Match | Mismatch | Gap opening | Gap continuation
+ --------- | --------- | --------- | --------- | -----
+ 1  | 1 |-1 |  0 | -1
+ 2 |  1 | -1 | -100 | -0.01
+ 3 | 1 | -1 | 0.5 | -0.3
