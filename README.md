@@ -10,6 +10,7 @@
 
 ## Needleman–Wunsch algorithm
 **Task:**
+
 To implement the global alignment algorithm, which receives two sequences at the input, and produces their optimal alignment. A fixed penalty for mismatch and gap and a reward of 1 for each match.
 
 **Tests:**
@@ -20,7 +21,8 @@ To implement the global alignment algorithm, which receives two sequences at the
 
 ## Alignment with the matrix of weights
 **Task:**
-In the previous problem, instead of a fixed fine, use any weight matrix. Enough (3 + 1) on (3 + 1).
+
+In the previous problem, instead of a fixed fine, use any weight matrix. Enough size is (3 + 1) on (3 + 1).
 
 **Tests:**
                 
@@ -29,7 +31,8 @@ In the previous problem, instead of a fixed fine, use any weight matrix. Enough 
 
 ## Smith–Waterman algorithm
 **Task:**
-Find the optimal alignment of all possible subwords of two sequences, that is, local alignment. The output should be clear where local alignment begins and ends.
+
+Find the optimal alignment of all possible subwords of two sequences, that is, local alignment. From the output should be clear where local alignment begins and ends.
 
 **Tests:**
                 
@@ -38,9 +41,11 @@ Find the optimal alignment of all possible subwords of two sequences, that is, l
 
 ## Affinity gaps
 **Task:**
+
 Implement a global alignment algorithm with affine gaps.
 
 **Tests:**
+
 Sequences:
 TCCCAGTTATGTCAGGGGACACGAGCATGCAGAGAC, AATTGCCGCCGTCGTTTTCAGCAGTTATGTCAGATC
                 
