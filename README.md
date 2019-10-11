@@ -1,6 +1,11 @@
 **Table of Contents**
 
-[TOC]
+- [1. Alignments](#1-alignments)
+  * [Needleman–Wunsch algorithm (global alignment)](#needleman-wunsch-algorithm--global-alignment-)
+  * [Alignment with the matrix of weights](#alignment-with-the-matrix-of-weights)
+  * [Smith–Waterman algorithm (local alignment)](#smith-waterman-algorithm--local-alignment-)
+  * [Affinity gaps](#affinity-gaps)
+
 # [1. Alignments](1_alignments.ipynb)
 
 ## Needleman–Wunsch algorithm (global alignment)
