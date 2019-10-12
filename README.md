@@ -5,6 +5,7 @@
   * [Alignment with the matrix of weights](#alignment-with-the-matrix-of-weights)
   * [Smith–Waterman algorithm](#smith-waterman-algorithm)
   * [Affinity gaps](#affinity-gaps)
+- [2. BLAST](#2-blast)
 
 # [1. Alignments](1_alignments.ipynb)
 
@@ -54,3 +55,10 @@ TCCCAGTTATGTCAGGGGACACGAGCATGCAGAGAC, AATTGCCGCCGTCGTTTTCAGCAGTTATGTCAGATC
  1  | 1 |-1 |  0 | -1
  2 |  1 | -1 | -100 | -0.01
  3 | 1 | -1 | 0.5 | -0.3
+
+# [2. BLAST](./2_BLAST/2_BLAST.ipynb)
+
+**Task:**
+
+Generate 3 random nucleotide sequences of length 100, 1000 and 10 000. Use the [blastn tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi) to search for the obtained sequences by `Nucleotide collection (nr / nt)`. 
+Save screenshots with search options and search results. `E-value` should be visible in the screenshots with the results.
