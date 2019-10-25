@@ -1,11 +1,12 @@
 **Table of Contents**
 
 - [1. Alignments](#1-alignments)
-  * [Needleman–Wunsch algorithm]
-  * [Alignment with the matrix of weights]
-  * [Smith–Waterman algorithm]
-  * [Affinity gaps]
+  * Needleman–Wunsch algorithm
+  * Alignment with the matrix of weights
+  * Smith–Waterman algorithm
+  * Affinity gaps
 - [2. BLAST](#2-blast)
+- [3. RNA](#3-rna)
 
 # [1. Alignments](./1_ALIGNMENTS/1_alignments.ipynb)
 
@@ -51,7 +52,7 @@ Sequences:
 TCCCAGTTATGTCAGGGGACACGAGCATGCAGAGAC, AATTGCCGCCGTCGTTTTCAGCAGTTATGTCAGATC
                 
  Test case | Match | Mismatch | Gap opening | Gap continuation
- --------- | --------- | --------- | --------- | -----
+ :---------:|:---------:|:---------:|:---------:|:-----:
  1  | 1 |-1 |  0 | -1
  2 |  1 | -1 | -100 | -0.01
  3 | 1 | -1 | 0.5 | -0.3
@@ -71,7 +72,7 @@ Implement the Nussinov algorithm, which obtains the secondary structure of the R
 
 **Tests:**
 
-1. GGACC
-The expected number of paired bases is 1.
-2. AAACAUGAGGAUUACCCAUGU
-The expected number of paired bases is 7.
+Test case | RNA | Expected number of paired bases 
+ :---------:|:---------:|:---------:
+ 1  | GGACC | 1
+ 2 | AAACAUGAGGAUUACCCAUGU | 7
