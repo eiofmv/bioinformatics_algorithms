@@ -1,10 +1,10 @@
 **Table of Contents**
 
 - [1. Alignments](#1-alignments)
-  * [Needleman–Wunsch algorithm](#needleman-wunsch-algorithm)
-  * [Alignment with the matrix of weights](#alignment-with-the-matrix-of-weights)
-  * [Smith–Waterman algorithm](#smith-waterman-algorithm)
-  * [Affinity gaps](#affinity-gaps)
+  * [Needleman–Wunsch algorithm]
+  * [Alignment with the matrix of weights]
+  * [Smith–Waterman algorithm]
+  * [Affinity gaps]
 - [2. BLAST](#2-blast)
 
 # [1. Alignments](./1_ALIGNMENTS/1_alignments.ipynb)
