@@ -7,7 +7,7 @@
   * [Affinity gaps](#affinity-gaps)
 - [2. BLAST](#2-blast)
 
-# [1. Alignments](1_alignments.ipynb)
+# [1. Alignments](./1_ALIGNMENTS/1_alignments.ipynb)
 
 ## Needleman–Wunsch algorithm
 **Task:**
@@ -62,3 +62,16 @@ TCCCAGTTATGTCAGGGGACACGAGCATGCAGAGAC, AATTGCCGCCGTCGTTTTCAGCAGTTATGTCAGATC
 
 Generate 3 random nucleotide sequences of length 100, 1000 and 10 000. Use the [blastn tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi) to search for the obtained sequences by `Nucleotide collection (nr / nt)`. 
 Save screenshots with search options and search results. `E-value` should be visible in the screenshots with the results.
+
+# [3. RNA](./3_RNA/3_RNA.ipynb)
+
+**Task:**
+
+Implement the Nussinov algorithm, which obtains the secondary structure of the RNA sequence with the maximum number of paired bases. The minimum size of the stem is 3. The output can be either graphic or a list of paired bases.
+
+**Tests:**
+
+1. GGACC
+The expected number of paired bases is 1.
+2. AAACAUGAGGAUUACCCAUGU
+The expected number of paired bases is 7.
