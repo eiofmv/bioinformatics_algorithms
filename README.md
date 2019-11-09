@@ -84,24 +84,32 @@ Test case | RNA | Expected number of paired bases
 # [4. Trees](./4_TREES/4_Trees.ipynb)
 
 ## Weighted Pair Group Method with Arithmetic Mean 
+**Task:**
+
+Implement WPGMA algorithm.
+
 ## Uneighted Pair Group Method with Arithmetic Mean
+**Task:**
+
+Implement UPGMA algorithm.
+
 ## Neighbor Joining
 **Task:**
 
-Implement a program that implements algorithms WPGMA, UPGMA, NJ.
+Implement NJ algorithm.
 
 **Tests:**
-1. Test case 1
-  | A | B | C | D  
- :-:|:-:|:-:|:-:|:-:
+
+test case 1| A | B | C | D  
+:-:|:-:|:-:|:-:|:-:
 A |  | 16 | 16 | 10
 B |  | | 8 | 8
 C | | | | 4
 D | | | | 
 
-2. Test case 2
-  | A | B | C | D | E | F
- :-:|:-:|:-:|:-:|:-:|:-:|:-:
+
+test case 2| A | B | C | D | E | F
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
 A |  | 5 | 4 | 7 | 6 | 8
 B |  | | 7 | 10 | 9 | 11
 C | | | | 7 | 6 | 8
