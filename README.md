@@ -7,13 +7,17 @@
   * Affinity gaps
 - [2. BLAST](#2-blast)
 - [3. RNA](#3-rna)
+- [4. TREES](#4-trees)
+  * Weighted Pair Group Method with Arithmetic Mean
+  * Unweighted Pair Group Method with Arithmetic Mean
+  * Neighbor Joining
 
 # [1. Alignments](./1_ALIGNMENTS/1_alignments.ipynb)
 
 ## Needleman–Wunsch algorithm
 **Task:**
 
-To implement the global alignment algorithm, which receives two sequences at the input, and produces their optimal alignment. A fixed penalty for mismatch and gap and a reward of 1 for each match.
+Implement the global alignment algorithm, which receives two sequences at the input, and produces their optimal alignment. A fixed penalty for mismatch and gap and a reward of 1 for each match.
 
 **Tests:**
                 
@@ -76,4 +80,32 @@ Test case | RNA | Expected number of paired bases
  :---------:|:---------:|:---------:
  1  | GGACC | 1
  2 | AAACAUGAGGAUUACCCAUGU | 7
+
+# [4. Trees](./4_TREES/4_Trees.ipynb)
+
+## Weighted Pair Group Method with Arithmetic Mean 
+## Uneighted Pair Group Method with Arithmetic Mean
+## Neighbor Joining
+**Task:**
+
+Implement a program that implements algorithms WPGMA, UPGMA, NJ.
+
+**Tests:**
+1. Test case 1
+  | A | B | C | D  
+ :-:|:-:|:-:|:-:|:-:
+A |  | 16 | 16 | 10
+B |  | | 8 | 8
+C | | | | 4
+D | | | | 
+
+2. Test case 2
+  | A | B | C | D | E | F
+ :-:|:-:|:-:|:-:|:-:|:-:|:-:
+A |  | 5 | 4 | 7 | 6 | 8
+B |  | | 7 | 10 | 9 | 11
+C | | | | 7 | 6 | 8
+D | | | | | 5 | 9
+E | | | | | | 8
+F | | | | | | |
 
